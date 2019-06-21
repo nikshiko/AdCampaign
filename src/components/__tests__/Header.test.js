@@ -1,17 +1,15 @@
-import React from 'react';
-import RenderHeaderComponent from '../Header';
+import React from 'react'
+import RenderHeaderComponent from '../Header'
 import {
-    render,
-    fireEvent,
-    cleanup,
-    waitForElement,
-  } from '@testing-library/react'
-import campaignListMock from '../__mocks__/index.mock';
+	render,
+} from '@testing-library/react'
+import campaignListMock from '../__mocks__/index.mock'
 
+const noOp = () => {};
 describe('Header component',() => {
   
-    it('should render a select component',() => {
-       const { asFragment } = render(<RenderHeaderComponent campaignList={campaignListMock} />);
-        expect(asFragment()).toMatchSnapshot();
-    })
+	it('should render a select component',() => {
+		const { asFragment } = render(<RenderHeaderComponent campaignList={campaignListMock} onChange={noOp} />)
+		expect(asFragment()).toMatchSnapshot()
+	})
 })
