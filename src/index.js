@@ -9,7 +9,6 @@ import RenderHeaderComponent from './components/Header'
 import RenderCampaignList from './components/Table'
 import mock from './components/__mocks__/index.mock'
 
-var campaigns = []
 const Layout = styled.div`
   max-width: 1560px
   position: relative;
@@ -55,6 +54,10 @@ App.propTypes = {
 App.defaultProps = {
 	campaignList: mock
 }
+
+
+
+var campaigns
 
 window.AddCampaigns = (moreCampaigns=[]) => {
 	campaigns = [...campaigns, ...moreCampaigns.length ? moreCampaigns: []]

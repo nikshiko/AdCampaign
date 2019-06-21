@@ -2,16 +2,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Input } from 'antd'
-import styled from 'styled-components'
 import { DatePicker } from 'antd'
+import { StyledHeader } from './styled'
 
-
-const StyledHeader = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-padding: 2em 0;
-`
 
 
 export default function RenderHeaderComponent (props) {
