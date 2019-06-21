@@ -1,14 +1,15 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
+import PropTypes from 'prop-types'
+
 import styled from 'styled-components'
-import moment from 'moment';
 import 'antd/dist/antd.css'
-import mock from './components/__mocks__/index.mock'
 
 import RenderHeaderComponent from './components/Header'
 import RenderCampaignList from './components/Table'
+import mock from './components/__mocks__/index.mock'
 
-var campaigns = [];
+var campaigns = []
 const Layout = styled.div`
   max-width: 1560px
   position: relative;
@@ -22,47 +23,48 @@ function App ({campaignList}) {
 	const [state, updateState] = useState({
 		dateRange: [],
 		searchValue: ''
-	});
+	})
 
 	const handleOnChange = ({ field, value }) => {
-		let updatedState = {...state};
-     	switch(field){
-		 	case 'search': 
-			  updatedState.searchValue = value
-			  break 
-			case 'dateRange': {
-			  updatedState.dateRange = value
-			}
-			 break
-
-			default:
-			 //no default 
-			  
-		 }
-		 updateState(updatedState);
+		let updatedState = {...state}
+		switch(field) {
+		case 'search': 
+			updatedState.searchValue = value
+			break 
+		case 'dateRange': 
+			updatedState.dateRange = value
+			break
+		default:
+			//no default 
+		}
+		updateState(updatedState)
 	}
 
 	return (
 		<Layout>
-			<RenderHeaderComponent campaignList={campaignList} onChange={handleOnChange} />
+			<RenderHeaderComponent onChange={handleOnChange} />
 			<RenderCampaignList campaignList={campaignList} filters={state} />
 		</Layout>
 	)
 }
 
-
-
-
-window.AddCampaigns = (moreCampaigns=[]) => {
-   campaigns = [...campaigns, ...moreCampaigns.length ? moreCampaigns: []];
-   console.log(campaigns);
-   ReactDOM.render(
-	<App campaignList={campaigns} />,
-	document.getElementById('root')
-)
+App.propTypes = {
+	campaignList: PropTypes.array
 }
 
- ReactDOM.render(
+App.defaultProps = {
+	campaignList: mock
+}
+
+window.AddCampaigns = (moreCampaigns=[]) => {
+	campaigns = [...campaigns, ...moreCampaigns.length ? moreCampaigns: []]
+	ReactDOM.render(
+		<App campaignList={campaigns} />,
+		document.getElementById('root')
+	)
+}
+
+ReactDOM.render(
 	<App campaignList={campaigns} />,
 	document.getElementById('root'))
 

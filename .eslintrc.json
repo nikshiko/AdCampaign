@@ -15,7 +15,7 @@
         "plugin:jest/recommended"
     ],
     "parserOptions": {
-        "ecmaVersions": {
+        "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
             "jsx": true
         },

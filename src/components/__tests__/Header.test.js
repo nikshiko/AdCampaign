@@ -5,7 +5,7 @@ import {
 } from '@testing-library/react'
 import campaignListMock from '../__mocks__/index.mock'
 
-const noOp = () => {};
+const noOp = () => {}
 describe('Header component',() => {
   
 	it('should render a select component',() => {
