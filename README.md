@@ -1,4 +1,4 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 This app is created using React 
 
 This project has been created using **webpack scaffold**, you can now run
 
@@ -6,10 +6,15 @@ This project has been created using **webpack scaffold**, you can now run
 npm run build
 ```
 
-or
+to bundle the application using webpack
 
 ```
-yarn build
+npm start
 ```
+to start off the application and it should automatically open it up in your default browser.
 
-to bundle your application
+It uses the webpack-dev-server to serve the js
+
+
+
+# AdCampaign
