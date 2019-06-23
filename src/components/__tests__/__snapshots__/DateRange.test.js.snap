@@ -3,17 +3,18 @@
 exports[`Date Range component should render the Date Range component without crashing  1`] = `
 <DocumentFragment>
   <div
-    class="sc-htpNat cjtfmR"
+    class="sc-htpNat gJQkZA"
   >
     <span
       class="ant-calendar-picker"
+      style="padding-right: 0.5em;"
     >
       <div>
         <input
           class="ant-calendar-picker-input ant-input"
           placeholder="Select start date"
           readonly=""
-          value="06/23/2019"
+          value="Invalid date"
         />
         <i
           aria-label="icon: close-circle"
@@ -58,6 +59,7 @@ exports[`Date Range component should render the Date Range component without cra
     </span>
     <span
       class="ant-calendar-picker"
+      style="padding-right: 0.5em;"
     >
       <div>
         <input

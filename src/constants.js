@@ -10,6 +10,8 @@ const columnConfig = {
 
 export const inactive= 'Inactive'
 export const active= 'Active'
+export const invalidDate= 'Invalid Date'
+
 export const placeholders = {
 	searchText: 'Search campaign',
 	startDate: 'Select start date',
@@ -18,5 +20,6 @@ export const placeholders = {
 }
 
 export const currency = 'USD'
-export const dateFormat = 'MM/DD/YYYY'
+export const dateFormat = 'DD/MM/YYYY'
+export const supportedDateFormats = [dateFormat, 'MM/DD/YYYY', 'YYYY/MM/DD']
 export default columnConfig

@@ -48,7 +48,7 @@ export default function DateRange({ handleRangeChange, selectedRange }) {
 				placeholder={placeholders.startDate}
 				onChange={onStartChange}
 				onOpenChange={handleStartOpenChange}
-				style={{paddingRight: '0.3em'}}
+				style={{paddingRight: '0.5em'}}
 			/>
 			<DatePicker
 				disabledDate={disabledEndDate}
@@ -58,7 +58,7 @@ export default function DateRange({ handleRangeChange, selectedRange }) {
 				onChange={onEndChange}
 				open={endOpen}
 				onOpenChange={handleEndOpenChange}
-				style={{paddingRight: '0.3em'}}
+				style={{paddingRight: '0.5em'}}
 			/>
 		</StyledDateRange>
 	)

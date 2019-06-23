@@ -10,7 +10,7 @@ import mock from './components/__mocks__/index.mock'
 
 
 
-function App ({ campaignList }) {
+export default function App ({ campaignList }) {
 	const [state, updateState] = useState({
 		startValue: null,
 		endValue: null,
@@ -73,7 +73,10 @@ function renderApp (list) {
 var campaigns = mock.correctFormat
 
 window.AddCampaigns = (moreCampaigns=[]) => {
-	campaigns = [...campaigns, ...moreCampaigns.length ? moreCampaigns: []]
+	campaigns = Array.isArray(moreCampaigns)
+		? [...campaigns, ...moreCampaigns.length ? moreCampaigns: []]
+		: campaigns
+
 	renderApp(campaigns)
 }
 

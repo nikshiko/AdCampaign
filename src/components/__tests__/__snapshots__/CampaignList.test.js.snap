@@ -145,12 +145,12 @@ exports[`CampaignList component renders the list when search is applied 1`] = `
                     <td
                       class=""
                     >
-                      9/19/2017
+                      19/09/2017
                     </td>
                     <td
                       class=""
                     >
-                      3/9/2018
+                      03/09/2018
                     </td>
                     <td
                       class=""
@@ -202,7 +202,7 @@ exports[`CampaignList component renders the list when search is applied 1`] = `
                     <td
                       class=""
                     >
-                      3/5/2018
+                      03/05/2018
                     </td>
                     <td
                       class=""
@@ -399,12 +399,12 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      9/19/2017
+                      19/09/2017
                     </td>
                     <td
                       class=""
                     >
-                      3/9/2018
+                      03/09/2018
                     </td>
                     <td
                       class=""
@@ -456,12 +456,12 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      11/21/2017
+                      21/11/2017
                     </td>
                     <td
                       class=""
                     >
-                      2/21/2018
+                      21/02/2018
                     </td>
                     <td
                       class=""
@@ -513,12 +513,12 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      11/1/2017
+                      11/01/2017
                     </td>
                     <td
                       class=""
                     >
-                      6/20/2017
+                      20/06/2017
                     </td>
                     <td
                       class=""
@@ -570,12 +570,12 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      8/25/2017
+                      25/08/2017
                     </td>
                     <td
                       class=""
                     >
-                      11/30/2017
+                      30/11/2017
                     </td>
                     <td
                       class=""
@@ -627,12 +627,12 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      11/28/2017
+                      28/11/2017
                     </td>
                     <td
                       class=""
                     >
-                      3/10/2018
+                      03/10/2018
                     </td>
                     <td
                       class=""
@@ -684,12 +684,12 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      7/25/2017
+                      25/07/2017
                     </td>
                     <td
                       class=""
                     >
-                      6/23/2017
+                      23/06/2017
                     </td>
                     <td
                       class=""
@@ -741,12 +741,12 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      6/27/2017
+                      27/06/2017
                     </td>
                     <td
                       class=""
                     >
-                      1/15/2018
+                      15/01/2018
                     </td>
                     <td
                       class=""
@@ -798,12 +798,12 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      10/13/2017
+                      13/10/2017
                     </td>
                     <td
                       class=""
                     >
-                      1/25/2018
+                      25/01/2018
                     </td>
                     <td
                       class=""
@@ -855,12 +855,12 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      9/6/2017
+                      09/06/2017
                     </td>
                     <td
                       class=""
                     >
-                      10/20/2019
+                      20/10/2019
                     </td>
                     <td
                       class=""
@@ -912,7 +912,7 @@ exports[`CampaignList component renders the list without any filters 1`] = `
                     <td
                       class=""
                     >
-                      3/5/2018
+                      03/05/2018
                     </td>
                     <td
                       class=""
@@ -969,57 +969,57 @@ Array [
   Object {
     "Budget": "- USD",
     "active": <StatusComponent
-      endDate="-"
-      startDate="1-19-2017"
+      endDate="Invalid Date"
+      startDate="19/01/2017"
     />,
-    "endDate": "-",
+    "endDate": "Invalid Date",
     "key": "0_id",
     "name": "Divavu",
-    "startDate": "1-19-2017",
+    "startDate": "19/01/2017",
   },
   Object {
     "Budget": "608715 USD",
     "active": <StatusComponent
-      endDate="-"
-      startDate="-"
+      endDate="Invalid Date"
+      startDate="Invalid Date"
     />,
-    "endDate": "-",
+    "endDate": "Invalid Date",
     "key": "1_id",
     "name": "-",
-    "startDate": "-",
+    "startDate": "Invalid Date",
   },
   Object {
     "Budget": "239507 USD",
     "active": <StatusComponent
-      endDate="6/20/2017"
-      startDate="11-11-17"
+      endDate="20/06/2017"
+      startDate="11/11/2017"
     />,
-    "endDate": "6/20/2017",
+    "endDate": "20/06/2017",
     "key": "2_id",
     "name": "Miboo",
-    "startDate": "11-11-17",
+    "startDate": "11/11/2017",
   },
   Object {
     "Budget": "179838 USD",
     "active": <StatusComponent
-      endDate="11/30/2017"
-      startDate="8/25/2017"
+      endDate="30/11/2017"
+      startDate="25/08/2017"
     />,
-    "endDate": "11/30/2017",
+    "endDate": "30/11/2017",
     "key": "3_id",
     "name": "Trilith",
-    "startDate": "8/25/2017",
+    "startDate": "25/08/2017",
   },
   Object {
     "Budget": "837850 USD",
     "active": <StatusComponent
-      endDate="11/17/2015"
-      startDate="11/28/2017"
+      endDate="17/11/2015"
+      startDate="28/11/2017"
     />,
-    "endDate": "11/17/2015",
+    "endDate": "17/11/2015",
     "key": "4_id",
     "name": "Layo",
-    "startDate": "11/28/2017",
+    "startDate": "28/11/2017",
   },
 ]
 `;
@@ -1029,57 +1029,57 @@ Array [
   Object {
     "Budget": "88377 USD",
     "active": <StatusComponent
-      endDate="3/90/2018"
-      startDate="1-19-2017"
+      endDate="Invalid Date"
+      startDate="19/01/2017"
     />,
-    "endDate": "3/90/2018",
+    "endDate": "Invalid Date",
     "key": "0_id",
     "name": "Divavu",
-    "startDate": "1-19-2017",
+    "startDate": "19/01/2017",
   },
   Object {
     "Budget": "608715 USD",
     "active": <StatusComponent
-      endDate="2/21/2018"
-      startDate="21-11-2017"
+      endDate="21/02/2018"
+      startDate="21/11/2017"
     />,
-    "endDate": "2/21/2018",
+    "endDate": "21/02/2018",
     "key": "1_id",
     "name": "Jaxspan",
-    "startDate": "21-11-2017",
+    "startDate": "21/11/2017",
   },
   Object {
     "Budget": "239507 USD",
     "active": <StatusComponent
-      endDate="6/20/2017"
-      startDate="11-11-17"
+      endDate="20/06/2017"
+      startDate="11/11/2017"
     />,
-    "endDate": "6/20/2017",
+    "endDate": "20/06/2017",
     "key": "2_id",
     "name": "Miboo",
-    "startDate": "11-11-17",
+    "startDate": "11/11/2017",
   },
   Object {
     "Budget": "179838 USD",
     "active": <StatusComponent
-      endDate="11/30/2017"
-      startDate="8/25/2017"
+      endDate="30/11/2017"
+      startDate="25/08/2017"
     />,
-    "endDate": "11/30/2017",
+    "endDate": "30/11/2017",
     "key": "3_id",
     "name": "Trilith",
-    "startDate": "8/25/2017",
+    "startDate": "25/08/2017",
   },
   Object {
     "Budget": "837850 USD",
     "active": <StatusComponent
-      endDate="11/17/2015"
-      startDate="11/28/2017"
+      endDate="17/11/2015"
+      startDate="28/11/2017"
     />,
-    "endDate": "11/17/2015",
+    "endDate": "17/11/2015",
     "key": "4_id",
     "name": "Layo",
-    "startDate": "11/28/2017",
+    "startDate": "28/11/2017",
   },
 ]
 `;
@@ -1089,90 +1089,24 @@ Array [
   Object {
     "Budget": "88377 USD",
     "active": <StatusComponent
-      endDate="3/9/2018"
-      startDate="9/19/2017"
+      endDate="03/09/2018"
+      startDate="19/09/2017"
     />,
-    "endDate": "3/9/2018",
+    "endDate": "03/09/2018",
     "key": "0_id",
     "name": "Divavu",
-    "startDate": "9/19/2017",
-  },
-  Object {
-    "Budget": "608715 USD",
-    "active": <StatusComponent
-      endDate="2/21/2018"
-      startDate="11/21/2017"
-    />,
-    "endDate": "2/21/2018",
-    "key": "1_id",
-    "name": "Jaxspan",
-    "startDate": "11/21/2017",
-  },
-  Object {
-    "Budget": "239507 USD",
-    "active": <StatusComponent
-      endDate="6/20/2017"
-      startDate="11/1/2017"
-    />,
-    "endDate": "6/20/2017",
-    "key": "2_id",
-    "name": "Miboo",
-    "startDate": "11/1/2017",
-  },
-  Object {
-    "Budget": "179838 USD",
-    "active": <StatusComponent
-      endDate="11/30/2017"
-      startDate="8/25/2017"
-    />,
-    "endDate": "11/30/2017",
-    "key": "3_id",
-    "name": "Trilith",
-    "startDate": "8/25/2017",
+    "startDate": "19/09/2017",
   },
   Object {
     "Budget": "837850 USD",
     "active": <StatusComponent
-      endDate="3/10/2018"
-      startDate="11/28/2017"
+      endDate="03/10/2018"
+      startDate="28/11/2017"
     />,
-    "endDate": "3/10/2018",
+    "endDate": "03/10/2018",
     "key": "4_id",
     "name": "Layo",
-    "startDate": "11/28/2017",
-  },
-  Object {
-    "Budget": "858131 USD",
-    "active": <StatusComponent
-      endDate="6/23/2017"
-      startDate="7/25/2017"
-    />,
-    "endDate": "6/23/2017",
-    "key": "5_id",
-    "name": "Photojam",
-    "startDate": "7/25/2017",
-  },
-  Object {
-    "Budget": "109078 USD",
-    "active": <StatusComponent
-      endDate="1/15/2018"
-      startDate="6/27/2017"
-    />,
-    "endDate": "1/15/2018",
-    "key": "6_id",
-    "name": "Blogtag",
-    "startDate": "6/27/2017",
-  },
-  Object {
-    "Budget": "272552 USD",
-    "active": <StatusComponent
-      endDate="1/25/2018"
-      startDate="10/13/2017"
-    />,
-    "endDate": "1/25/2018",
-    "key": "7_id",
-    "name": "Rhyzio",
-    "startDate": "10/13/2017",
+    "startDate": "28/11/2017",
   },
 ]
 `;
@@ -1182,24 +1116,24 @@ Array [
   Object {
     "Budget": "88377 USD",
     "active": <StatusComponent
-      endDate="3/9/2018"
-      startDate="9/19/2017"
+      endDate="03/09/2018"
+      startDate="19/09/2017"
     />,
-    "endDate": "3/9/2018",
+    "endDate": "03/09/2018",
     "key": "0_id",
     "name": "Divavu",
-    "startDate": "9/19/2017",
+    "startDate": "19/09/2017",
   },
   Object {
     "Budget": "505602 USD",
     "active": <StatusComponent
       endDate="10/12/2019"
-      startDate="3/5/2018"
+      startDate="03/05/2018"
     />,
     "endDate": "10/12/2019",
     "key": "9_id",
     "name": "Realbridge",
-    "startDate": "3/5/2018",
+    "startDate": "03/05/2018",
   },
 ]
 `;
@@ -1207,26 +1141,15 @@ Array [
 exports[`CampaignList getTableData returns the data required to be rendered in the table with start date selected 1`] = `
 Array [
   Object {
-    "Budget": "301919 USD",
-    "active": <StatusComponent
-      endDate="10/20/2019"
-      startDate="9/6/2017"
-    />,
-    "endDate": "10/20/2019",
-    "key": "8_id",
-    "name": "Zoomcast",
-    "startDate": "9/6/2017",
-  },
-  Object {
     "Budget": "505602 USD",
     "active": <StatusComponent
       endDate="10/12/2019"
-      startDate="3/5/2018"
+      startDate="03/05/2018"
     />,
     "endDate": "10/12/2019",
     "key": "9_id",
     "name": "Realbridge",
-    "startDate": "3/5/2018",
+    "startDate": "03/05/2018",
   },
 ]
 `;
@@ -1236,79 +1159,79 @@ Array [
   Object {
     "Budget": "88377 USD",
     "active": <StatusComponent
-      endDate="3/9/2018"
-      startDate="9/19/2017"
+      endDate="03/09/2018"
+      startDate="19/09/2017"
     />,
-    "endDate": "3/9/2018",
+    "endDate": "03/09/2018",
     "key": "0_id",
     "name": "Divavu",
-    "startDate": "9/19/2017",
+    "startDate": "19/09/2017",
   },
   Object {
     "Budget": "608715 USD",
     "active": <StatusComponent
-      endDate="2/21/2018"
-      startDate="11/21/2017"
+      endDate="21/02/2018"
+      startDate="21/11/2017"
     />,
-    "endDate": "2/21/2018",
+    "endDate": "21/02/2018",
     "key": "1_id",
     "name": "Jaxspan",
-    "startDate": "11/21/2017",
+    "startDate": "21/11/2017",
   },
   Object {
     "Budget": "179838 USD",
     "active": <StatusComponent
-      endDate="11/30/2017"
-      startDate="8/25/2017"
+      endDate="30/11/2017"
+      startDate="25/08/2017"
     />,
-    "endDate": "11/30/2017",
+    "endDate": "30/11/2017",
     "key": "3_id",
     "name": "Trilith",
-    "startDate": "8/25/2017",
+    "startDate": "25/08/2017",
   },
   Object {
     "Budget": "837850 USD",
     "active": <StatusComponent
-      endDate="3/10/2018"
-      startDate="11/28/2017"
+      endDate="03/10/2018"
+      startDate="28/11/2017"
     />,
-    "endDate": "3/10/2018",
+    "endDate": "03/10/2018",
     "key": "4_id",
     "name": "Layo",
-    "startDate": "11/28/2017",
+    "startDate": "28/11/2017",
   },
   Object {
     "Budget": "858131 USD",
     "active": <StatusComponent
-      endDate="6/23/2017"
-      startDate="7/25/2017"
+      endDate="23/06/2017"
+      startDate="25/07/2017"
     />,
-    "endDate": "6/23/2017",
+    "endDate": "23/06/2017",
     "key": "5_id",
     "name": "Photojam",
-    "startDate": "7/25/2017",
+    "startDate": "25/07/2017",
   },
   Object {
     "Budget": "109078 USD",
     "active": <StatusComponent
-      endDate="1/15/2018"
-      startDate="6/27/2017"
+      endDate="15/01/2018"
+      startDate="27/06/2017"
     />,
-    "endDate": "1/15/2018",
+    "endDate": "15/01/2018",
     "key": "6_id",
     "name": "Blogtag",
-    "startDate": "6/27/2017",
+    "startDate": "27/06/2017",
   },
   Object {
     "Budget": "272552 USD",
     "active": <StatusComponent
-      endDate="1/25/2018"
-      startDate="10/13/2017"
+      endDate="25/01/2018"
+      startDate="13/10/2017"
     />,
-    "endDate": "1/25/2018",
+    "endDate": "25/01/2018",
     "key": "7_id",
     "name": "Rhyzio",
-    "startDate": "10/13/2017",
+    "startDate": "13/10/2017",
   },
 ]
 `;

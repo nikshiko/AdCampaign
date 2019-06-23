@@ -5,7 +5,7 @@ import moment from 'moment'
 
 import Status from './Status'
 import config,{ currency } from '../constants'
-import { generateColumnConfig ,isDateInRange , isSubStringPresent } from '../utils'
+import { generateColumnConfig ,isDateInRange , isSubStringPresent, formatDate } from '../utils'
 
 /**
  * 
@@ -29,12 +29,14 @@ export const generateTableData = (list=[], filters={}) => {
 	const { tableList, filteredList } =  list.reduce((acc,item,key) => {
 		let {tableList, filteredList} = acc
 		const { id='-', name= '-', startDate= '-', endDate= '-' ,Budget= '-' } = item || {}
+		const formatedStartDate = formatDate(startDate)
+		const formatedEndDate = formatDate(endDate)
 		const rowItem = {
 			key: `${key}_id`,
 			name, 
-			startDate,
-			endDate,
-			active: <Status key={id} startDate={startDate} endDate={endDate} />,
+			startDate: formatedStartDate,
+			endDate: formatedEndDate,
+			active: <Status key={id} startDate={formatedStartDate} endDate={formatedEndDate} />,
 			Budget: `${Budget } ${currency}`
 		}
 		
@@ -43,7 +45,7 @@ export const generateTableData = (list=[], filters={}) => {
 		 */
 		if( searchValue && (startValue || endValue)) {
 			if(isSubStringPresent(name, searchValue) && 
-			isInRange([startValue,endValue],[startDate,endDate])) {
+			isInRange([startValue,endValue],[formatedStartDate,formatedEndDate])) {
 				filteredList.push(rowItem)
 				return { tableList: [], filteredList }
 			}
@@ -64,7 +66,8 @@ export const generateTableData = (list=[], filters={}) => {
 		 * this is when no search value is present
 		 */
 
-		if((startValue || endValue) && isInRange([startValue,endValue], [startDate,endDate])){		
+		if((startValue || endValue) &&
+			isInRange([startValue,endValue], [formatedStartDate,formatedEndDate])){
 			filteredList.push(rowItem)
 			return { tableList: [], filteredList }
 		}

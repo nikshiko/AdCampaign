@@ -8,8 +8,8 @@ describe('utils', () => {
 	})
 
 	test('inDateRange should return true if a given date is in the specified range',() => {
-        const isInRange = isDateInRange('06-23-2019','06/22/2019','06/30/2020')
-        expect(isInRange).toBeTruthy()
+		const isInRange = isDateInRange('06-23-2019','06/22/2019','06/30/2020')
+		expect(isInRange).toBeTruthy()
 
 	})
 

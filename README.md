@@ -1,19 +1,25 @@
 # 🚀 This app is created using React 
 
-This project has been created using **webpack scaffold**,to bundle the application  you can now run
+This project has been created using **webpack scaffold**,to bundle the application
+
+1. To install the dependencies run the below command
+
+```
+npm install
+```
+
+2. Run the below command to build the app
 
 ```
 npm run build
 ```
 
-To start off the application and it should automatically open it up in your default browser.
+3. Run the following command to start the app at http://localhost:8080 using the webpack-dev-server
 
 ```
 npm start
 ```
 
-
-It uses the webpack-dev-server to serve the app at port 8080
 
 
 
