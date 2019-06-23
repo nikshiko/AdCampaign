@@ -27,7 +27,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	mode: 'development',
-	entry: './src/index.js',
+	entry: {
+		  main: [
+			'@babel/polyfill',
+			'./src/index.js',
+		  ]
+		},
 
 	output: {
 		filename: '[name].[chunkhash].js',

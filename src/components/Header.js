@@ -2,32 +2,36 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Input } from 'antd'
-import { DatePicker } from 'antd'
-import { StyledHeader } from './styled'
+
+import DateRange from '../components/DateRange'
+import { StyledHeader } from '../styled'
+import { placeholders } from '../constants'
 
 
 
-export default function RenderHeaderComponent (props) {
-	const { onChange } = props
-	const handleRangeChange = (data) => {
-		onChange({ field: 'dateRange', value: data })
-	}
+export default function Header ({ onChange, selectedRange }) {
 
 	const handleSearchChange = (e) => {
 		onChange({ field: 'search', value: e.target.value })
 	}
 	return (
 		<StyledHeader>
-			<DatePicker.RangePicker format='DD/MM/YYYY' onChange={handleRangeChange}/>
+			<DateRange
+				selectedRange={selectedRange}
+				handleRangeChange={onChange} />
 			<Input.Search
-				placeholder="Search campaign"
+				id="searchInput"
+				placeholder={placeholders.searchText}
 				onChange={handleSearchChange}
-				style={{width: '200px'}}
-			/>
+				style={{width: '200px'}} />
 		</StyledHeader>
 	)
 }
 
-RenderHeaderComponent.propTypes = {
-	onChange: PropTypes.func.isRequired
+Header.propTypes = {
+	onChange: PropTypes.func.isRequired,
+	selectedRange: PropTypes.shape({
+		startValue: PropTypes.object,
+		endValue: PropTypes.object
+	})
 }

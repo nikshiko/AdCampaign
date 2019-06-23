@@ -1,15 +1,19 @@
 import React from 'react'
-import RenderHeaderComponent from '../Header'
-import {
-	render,
-} from '@testing-library/react'
-import campaignListMock from '../__mocks__/index.mock'
+import Header from '../Header'
+import { render, fireEvent, cleanup } from '@testing-library/react'
+import { placeholders } from '../../constants'
+const onChange = jest.fn().mockImplementation(()=>{})
 
-const noOp = () => {}
 describe('Header component',() => {
-  
-	it('should render a select component',() => {
-		const { asFragment } = render(<RenderHeaderComponent campaignList={campaignListMock} onChange={noOp} />)
+	afterEach(cleanup)
+	it('should render without crashing',() => {
+		const { asFragment } = render(<Header onChange={onChange} />)
 		expect(asFragment()).toMatchSnapshot()
+	})
+
+	it('should trigger the onChange function when user searches for a campaign name ',() => {
+		const { getByPlaceholderText } = render(<Header onChange={onChange} />)
+		fireEvent.change(getByPlaceholderText(placeholders.searchText), { target: { value: 'a' } })
+		expect(onChange).toHaveBeenCalledWith({'field': 'search', 'value': 'a'})
 	})
 })

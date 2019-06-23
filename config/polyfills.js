@@ -5,3 +5,10 @@ if (typeof Promise === 'undefined') {
     require('promise/lib/rejection-tracking').enable();
     window.Promise = require('promise/lib/es6-extensions.js');
 }
+
+if (!String.prototype.startsWith) {
+    String.prototype.startsWith = function(searchString, position) {
+      position = position || 0;
+      return this.indexOf(searchString, position) === position;
+    };
+  }

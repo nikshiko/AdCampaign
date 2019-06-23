@@ -1,19 +1,19 @@
 # 🚀 This app is created using React 
 
-This project has been created using **webpack scaffold**, you can now run
+This project has been created using **webpack scaffold**,to bundle the application  you can now run
 
 ```
 npm run build
 ```
 
-to bundle the application using webpack
+To start off the application and it should automatically open it up in your default browser.
 
 ```
 npm start
 ```
-to start off the application and it should automatically open it up in your default browser.
 
-It uses the webpack-dev-server to serve the js
+
+It uses the webpack-dev-server to serve the app at port 8080
 
 
 

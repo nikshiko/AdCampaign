@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils generateColumnConfig should return the correct config 1`] = `
+Array [
+  Object {
+    "dataIndex": "name",
+    "key": "name",
+    "title": "Campaign name",
+  },
+  Object {
+    "dataIndex": "startDate",
+    "key": "startDate",
+    "title": "Starting on",
+  },
+  Object {
+    "dataIndex": "endDate",
+    "key": "endDate",
+    "title": "Ending on",
+  },
+  Object {
+    "dataIndex": "active",
+    "key": "active",
+    "title": "Active",
+  },
+  Object {
+    "dataIndex": "Budget",
+    "key": "Budget",
+    "title": "Budget",
+  },
+]
+`;

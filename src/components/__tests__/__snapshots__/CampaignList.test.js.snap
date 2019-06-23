@@ -1,0 +1,1316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CampaignList component renders the list when search is applied 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-table-wrapper"
+  >
+    <div
+      class="ant-spin-nested-loading"
+    >
+      <div
+        class="ant-spin-container"
+      >
+        <div
+          class="ant-table ant-table-default ant-table-scroll-position-left"
+        >
+          <div
+            class="ant-table-content"
+          >
+            <div
+              class="ant-table-body"
+            >
+              <table
+                class=""
+              >
+                <colgroup>
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                </colgroup>
+                <thead
+                  class="ant-table-thead"
+                >
+                  <tr>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Campaign name
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Starting on
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Ending on
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Active
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Budget
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="ant-table-tbody"
+                >
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="0_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Divavu
+                    </td>
+                    <td
+                      class=""
+                    >
+                      9/19/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      3/9/2018
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: minus-circle"
+                        class="anticon anticon-minus-circle"
+                        style="color: rgb(255, 0, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="minus-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M696 480H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Inactive
+                    </td>
+                    <td
+                      class=""
+                    >
+                      88377 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="9_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Realbridge
+                    </td>
+                    <td
+                      class=""
+                    >
+                      3/5/2018
+                    </td>
+                    <td
+                      class=""
+                    >
+                      10/12/2019
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: check-circle"
+                        class="anticon anticon-check-circle"
+                        style="color: rgb(0, 128, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="check-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Active
+                    </td>
+                    <td
+                      class=""
+                    >
+                      505602 USD
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CampaignList component renders the list without any filters 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-table-wrapper"
+  >
+    <div
+      class="ant-spin-nested-loading"
+    >
+      <div
+        class="ant-spin-container"
+      >
+        <div
+          class="ant-table ant-table-default ant-table-scroll-position-left"
+        >
+          <div
+            class="ant-table-content"
+          >
+            <div
+              class="ant-table-body"
+            >
+              <table
+                class=""
+              >
+                <colgroup>
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                </colgroup>
+                <thead
+                  class="ant-table-thead"
+                >
+                  <tr>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Campaign name
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Starting on
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Ending on
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Active
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                    <th
+                      class=""
+                    >
+                      <span
+                        class="ant-table-header-column"
+                      >
+                        <div>
+                          <span
+                            class="ant-table-column-title"
+                          >
+                            Budget
+                          </span>
+                          <span
+                            class="ant-table-column-sorter"
+                          />
+                        </div>
+                      </span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="ant-table-tbody"
+                >
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="0_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Divavu
+                    </td>
+                    <td
+                      class=""
+                    >
+                      9/19/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      3/9/2018
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: minus-circle"
+                        class="anticon anticon-minus-circle"
+                        style="color: rgb(255, 0, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="minus-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M696 480H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Inactive
+                    </td>
+                    <td
+                      class=""
+                    >
+                      88377 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="1_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Jaxspan
+                    </td>
+                    <td
+                      class=""
+                    >
+                      11/21/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      2/21/2018
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: minus-circle"
+                        class="anticon anticon-minus-circle"
+                        style="color: rgb(255, 0, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="minus-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M696 480H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Inactive
+                    </td>
+                    <td
+                      class=""
+                    >
+                      608715 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="2_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Miboo
+                    </td>
+                    <td
+                      class=""
+                    >
+                      11/1/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      6/20/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: minus-circle"
+                        class="anticon anticon-minus-circle"
+                        style="color: rgb(255, 0, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="minus-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M696 480H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Inactive
+                    </td>
+                    <td
+                      class=""
+                    >
+                      239507 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="3_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Trilith
+                    </td>
+                    <td
+                      class=""
+                    >
+                      8/25/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      11/30/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: minus-circle"
+                        class="anticon anticon-minus-circle"
+                        style="color: rgb(255, 0, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="minus-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M696 480H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Inactive
+                    </td>
+                    <td
+                      class=""
+                    >
+                      179838 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="4_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Layo
+                    </td>
+                    <td
+                      class=""
+                    >
+                      11/28/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      3/10/2018
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: minus-circle"
+                        class="anticon anticon-minus-circle"
+                        style="color: rgb(255, 0, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="minus-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M696 480H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Inactive
+                    </td>
+                    <td
+                      class=""
+                    >
+                      837850 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="5_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Photojam
+                    </td>
+                    <td
+                      class=""
+                    >
+                      7/25/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      6/23/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: minus-circle"
+                        class="anticon anticon-minus-circle"
+                        style="color: rgb(255, 0, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="minus-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M696 480H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Inactive
+                    </td>
+                    <td
+                      class=""
+                    >
+                      858131 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="6_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Blogtag
+                    </td>
+                    <td
+                      class=""
+                    >
+                      6/27/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      1/15/2018
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: minus-circle"
+                        class="anticon anticon-minus-circle"
+                        style="color: rgb(255, 0, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="minus-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M696 480H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Inactive
+                    </td>
+                    <td
+                      class=""
+                    >
+                      109078 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="7_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Rhyzio
+                    </td>
+                    <td
+                      class=""
+                    >
+                      10/13/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      1/25/2018
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: minus-circle"
+                        class="anticon anticon-minus-circle"
+                        style="color: rgb(255, 0, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="minus-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M696 480H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h368c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Inactive
+                    </td>
+                    <td
+                      class=""
+                    >
+                      272552 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="8_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Zoomcast
+                    </td>
+                    <td
+                      class=""
+                    >
+                      9/6/2017
+                    </td>
+                    <td
+                      class=""
+                    >
+                      10/20/2019
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: check-circle"
+                        class="anticon anticon-check-circle"
+                        style="color: rgb(0, 128, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="check-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Active
+                    </td>
+                    <td
+                      class=""
+                    >
+                      301919 USD
+                    </td>
+                  </tr>
+                  <tr
+                    class="ant-table-row ant-table-row-level-0"
+                    data-row-key="9_id"
+                  >
+                    <td
+                      class=""
+                    >
+                      <span
+                        class="ant-table-row-indent indent-level-0"
+                        style="padding-left: 0px;"
+                      />
+                      Realbridge
+                    </td>
+                    <td
+                      class=""
+                    >
+                      3/5/2018
+                    </td>
+                    <td
+                      class=""
+                    >
+                      10/12/2019
+                    </td>
+                    <td
+                      class=""
+                    >
+                      <i
+                        aria-label="icon: check-circle"
+                        class="anticon anticon-check-circle"
+                        style="color: rgb(0, 128, 0);"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class=""
+                          data-icon="check-circle"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                          <path
+                            d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                          />
+                        </svg>
+                      </i>
+                       Active
+                    </td>
+                    <td
+                      class=""
+                    >
+                      505602 USD
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CampaignList getTableData does't break when the format of the list passed is not correct 1`] = `
+Array [
+  Object {
+    "Budget": "- USD",
+    "active": <StatusComponent
+      endDate="-"
+      startDate="1-19-2017"
+    />,
+    "endDate": "-",
+    "key": "0_id",
+    "name": "Divavu",
+    "startDate": "1-19-2017",
+  },
+  Object {
+    "Budget": "608715 USD",
+    "active": <StatusComponent
+      endDate="-"
+      startDate="-"
+    />,
+    "endDate": "-",
+    "key": "1_id",
+    "name": "-",
+    "startDate": "-",
+  },
+  Object {
+    "Budget": "239507 USD",
+    "active": <StatusComponent
+      endDate="6/20/2017"
+      startDate="11-11-17"
+    />,
+    "endDate": "6/20/2017",
+    "key": "2_id",
+    "name": "Miboo",
+    "startDate": "11-11-17",
+  },
+  Object {
+    "Budget": "179838 USD",
+    "active": <StatusComponent
+      endDate="11/30/2017"
+      startDate="8/25/2017"
+    />,
+    "endDate": "11/30/2017",
+    "key": "3_id",
+    "name": "Trilith",
+    "startDate": "8/25/2017",
+  },
+  Object {
+    "Budget": "837850 USD",
+    "active": <StatusComponent
+      endDate="11/17/2015"
+      startDate="11/28/2017"
+    />,
+    "endDate": "11/17/2015",
+    "key": "4_id",
+    "name": "Layo",
+    "startDate": "11/28/2017",
+  },
+]
+`;
+
+exports[`CampaignList getTableData returns the data required to be rendered in the table when the date format is incorrect 1`] = `
+Array [
+  Object {
+    "Budget": "88377 USD",
+    "active": <StatusComponent
+      endDate="3/90/2018"
+      startDate="1-19-2017"
+    />,
+    "endDate": "3/90/2018",
+    "key": "0_id",
+    "name": "Divavu",
+    "startDate": "1-19-2017",
+  },
+  Object {
+    "Budget": "608715 USD",
+    "active": <StatusComponent
+      endDate="2/21/2018"
+      startDate="21-11-2017"
+    />,
+    "endDate": "2/21/2018",
+    "key": "1_id",
+    "name": "Jaxspan",
+    "startDate": "21-11-2017",
+  },
+  Object {
+    "Budget": "239507 USD",
+    "active": <StatusComponent
+      endDate="6/20/2017"
+      startDate="11-11-17"
+    />,
+    "endDate": "6/20/2017",
+    "key": "2_id",
+    "name": "Miboo",
+    "startDate": "11-11-17",
+  },
+  Object {
+    "Budget": "179838 USD",
+    "active": <StatusComponent
+      endDate="11/30/2017"
+      startDate="8/25/2017"
+    />,
+    "endDate": "11/30/2017",
+    "key": "3_id",
+    "name": "Trilith",
+    "startDate": "8/25/2017",
+  },
+  Object {
+    "Budget": "837850 USD",
+    "active": <StatusComponent
+      endDate="11/17/2015"
+      startDate="11/28/2017"
+    />,
+    "endDate": "11/17/2015",
+    "key": "4_id",
+    "name": "Layo",
+    "startDate": "11/28/2017",
+  },
+]
+`;
+
+exports[`CampaignList getTableData returns the data required to be rendered in the table with end date selected 1`] = `
+Array [
+  Object {
+    "Budget": "88377 USD",
+    "active": <StatusComponent
+      endDate="3/9/2018"
+      startDate="9/19/2017"
+    />,
+    "endDate": "3/9/2018",
+    "key": "0_id",
+    "name": "Divavu",
+    "startDate": "9/19/2017",
+  },
+  Object {
+    "Budget": "608715 USD",
+    "active": <StatusComponent
+      endDate="2/21/2018"
+      startDate="11/21/2017"
+    />,
+    "endDate": "2/21/2018",
+    "key": "1_id",
+    "name": "Jaxspan",
+    "startDate": "11/21/2017",
+  },
+  Object {
+    "Budget": "239507 USD",
+    "active": <StatusComponent
+      endDate="6/20/2017"
+      startDate="11/1/2017"
+    />,
+    "endDate": "6/20/2017",
+    "key": "2_id",
+    "name": "Miboo",
+    "startDate": "11/1/2017",
+  },
+  Object {
+    "Budget": "179838 USD",
+    "active": <StatusComponent
+      endDate="11/30/2017"
+      startDate="8/25/2017"
+    />,
+    "endDate": "11/30/2017",
+    "key": "3_id",
+    "name": "Trilith",
+    "startDate": "8/25/2017",
+  },
+  Object {
+    "Budget": "837850 USD",
+    "active": <StatusComponent
+      endDate="3/10/2018"
+      startDate="11/28/2017"
+    />,
+    "endDate": "3/10/2018",
+    "key": "4_id",
+    "name": "Layo",
+    "startDate": "11/28/2017",
+  },
+  Object {
+    "Budget": "858131 USD",
+    "active": <StatusComponent
+      endDate="6/23/2017"
+      startDate="7/25/2017"
+    />,
+    "endDate": "6/23/2017",
+    "key": "5_id",
+    "name": "Photojam",
+    "startDate": "7/25/2017",
+  },
+  Object {
+    "Budget": "109078 USD",
+    "active": <StatusComponent
+      endDate="1/15/2018"
+      startDate="6/27/2017"
+    />,
+    "endDate": "1/15/2018",
+    "key": "6_id",
+    "name": "Blogtag",
+    "startDate": "6/27/2017",
+  },
+  Object {
+    "Budget": "272552 USD",
+    "active": <StatusComponent
+      endDate="1/25/2018"
+      startDate="10/13/2017"
+    />,
+    "endDate": "1/25/2018",
+    "key": "7_id",
+    "name": "Rhyzio",
+    "startDate": "10/13/2017",
+  },
+]
+`;
+
+exports[`CampaignList getTableData returns the data required to be rendered in the table with filters 1`] = `
+Array [
+  Object {
+    "Budget": "88377 USD",
+    "active": <StatusComponent
+      endDate="3/9/2018"
+      startDate="9/19/2017"
+    />,
+    "endDate": "3/9/2018",
+    "key": "0_id",
+    "name": "Divavu",
+    "startDate": "9/19/2017",
+  },
+  Object {
+    "Budget": "505602 USD",
+    "active": <StatusComponent
+      endDate="10/12/2019"
+      startDate="3/5/2018"
+    />,
+    "endDate": "10/12/2019",
+    "key": "9_id",
+    "name": "Realbridge",
+    "startDate": "3/5/2018",
+  },
+]
+`;
+
+exports[`CampaignList getTableData returns the data required to be rendered in the table with start date selected 1`] = `
+Array [
+  Object {
+    "Budget": "301919 USD",
+    "active": <StatusComponent
+      endDate="10/20/2019"
+      startDate="9/6/2017"
+    />,
+    "endDate": "10/20/2019",
+    "key": "8_id",
+    "name": "Zoomcast",
+    "startDate": "9/6/2017",
+  },
+  Object {
+    "Budget": "505602 USD",
+    "active": <StatusComponent
+      endDate="10/12/2019"
+      startDate="3/5/2018"
+    />,
+    "endDate": "10/12/2019",
+    "key": "9_id",
+    "name": "Realbridge",
+    "startDate": "3/5/2018",
+  },
+]
+`;
+
+exports[`CampaignList getTableData returns the data required to be rendered in the table with the range selected 1`] = `
+Array [
+  Object {
+    "Budget": "88377 USD",
+    "active": <StatusComponent
+      endDate="3/9/2018"
+      startDate="9/19/2017"
+    />,
+    "endDate": "3/9/2018",
+    "key": "0_id",
+    "name": "Divavu",
+    "startDate": "9/19/2017",
+  },
+  Object {
+    "Budget": "608715 USD",
+    "active": <StatusComponent
+      endDate="2/21/2018"
+      startDate="11/21/2017"
+    />,
+    "endDate": "2/21/2018",
+    "key": "1_id",
+    "name": "Jaxspan",
+    "startDate": "11/21/2017",
+  },
+  Object {
+    "Budget": "179838 USD",
+    "active": <StatusComponent
+      endDate="11/30/2017"
+      startDate="8/25/2017"
+    />,
+    "endDate": "11/30/2017",
+    "key": "3_id",
+    "name": "Trilith",
+    "startDate": "8/25/2017",
+  },
+  Object {
+    "Budget": "837850 USD",
+    "active": <StatusComponent
+      endDate="3/10/2018"
+      startDate="11/28/2017"
+    />,
+    "endDate": "3/10/2018",
+    "key": "4_id",
+    "name": "Layo",
+    "startDate": "11/28/2017",
+  },
+  Object {
+    "Budget": "858131 USD",
+    "active": <StatusComponent
+      endDate="6/23/2017"
+      startDate="7/25/2017"
+    />,
+    "endDate": "6/23/2017",
+    "key": "5_id",
+    "name": "Photojam",
+    "startDate": "7/25/2017",
+  },
+  Object {
+    "Budget": "109078 USD",
+    "active": <StatusComponent
+      endDate="1/15/2018"
+      startDate="6/27/2017"
+    />,
+    "endDate": "1/15/2018",
+    "key": "6_id",
+    "name": "Blogtag",
+    "startDate": "6/27/2017",
+  },
+  Object {
+    "Budget": "272552 USD",
+    "active": <StatusComponent
+      endDate="1/25/2018"
+      startDate="10/13/2017"
+    />,
+    "endDate": "1/25/2018",
+    "key": "7_id",
+    "name": "Rhyzio",
+    "startDate": "10/13/2017",
+  },
+]
+`;
+
+exports[`CampaignList getTableData returns the data required to be rendered in the table with the range selected and the search value 1`] = `Array []`;

@@ -1,26 +1,19 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
-
-import styled from 'styled-components'
 import 'antd/dist/antd.css'
 
-import RenderHeaderComponent from './components/Header'
-import RenderCampaignList from './components/Table'
+import Header from './components/Header'
+import CampaignList from './components/CampaignList'
+import { StyledLayout } from './styled'
 import mock from './components/__mocks__/index.mock'
 
-const Layout = styled.div`
-  max-width: 1560px
-  position: relative;
-  margin: 10em;
-  padding: 1em;
-  border: 0.2em solid black;
-`
 
 
-function App ({campaignList}) {
+function App ({ campaignList }) {
 	const [state, updateState] = useState({
-		dateRange: [],
+		startValue: null,
+		endValue: null,
 		searchValue: ''
 	})
 
@@ -30,9 +23,15 @@ function App ({campaignList}) {
 		case 'search': 
 			updatedState.searchValue = value
 			break 
-		case 'dateRange': 
-			updatedState.dateRange = value
+
+		case 'startValue': 
+			updatedState.startValue = value
 			break
+
+		case 'endValue': 
+			updatedState.endValue = value
+			break
+
 		default:
 			//no default 
 		}
@@ -40,36 +39,45 @@ function App ({campaignList}) {
 	}
 
 	return (
-		<Layout>
-			<RenderHeaderComponent onChange={handleOnChange} />
-			<RenderCampaignList campaignList={campaignList} filters={state} />
-		</Layout>
+		<StyledLayout>
+			<Header
+				onChange={handleOnChange}
+				selectedRange={{startValue: state.startValue, endValue: state.endValue}} />
+			<CampaignList
+				list={campaignList}
+				filters={state} />
+		</StyledLayout>
 	)
-}
-
-App.propTypes = {
-	campaignList: PropTypes.array
 }
 
 App.defaultProps = {
 	campaignList: mock
 }
 
+App.propTypes = {
+	/**
+	 * A list of campaigns that can be passed down by the window object
+	 */
+	campaignList: PropTypes.array
+}
 
 
-var campaigns
 
-window.AddCampaigns = (moreCampaigns=[]) => {
-	campaigns = [...campaigns, ...moreCampaigns.length ? moreCampaigns: []]
+
+function renderApp (list) {
 	ReactDOM.render(
-		<App campaignList={campaigns} />,
+		<App campaignList={list} />,
 		document.getElementById('root')
 	)
 }
+var campaigns = mock.correctFormat
 
-ReactDOM.render(
-	<App campaignList={campaigns} />,
-	document.getElementById('root'))
+window.AddCampaigns = (moreCampaigns=[]) => {
+	campaigns = [...campaigns, ...moreCampaigns.length ? moreCampaigns: []]
+	renderApp(campaigns)
+}
+
+renderApp(campaigns)
 
 
 
